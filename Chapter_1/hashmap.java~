@@ -1,0 +1,19 @@
+public class HashMap{
+
+    // construct a new student with given fields
+    public Student Student(String first, String last, String email, int section) {
+        this.first   = first;
+        this.last    = last;
+        this.email   = email;
+        this.section = section;
+	return Student;
+    }
+
+    public HashMap<Integer, Student> buildMap(Student[] students){
+	HashMap<Integer, Student> map = new HashMap<Integer, Student>();
+	for(Student s : students){
+	    map.put(s.getId(), s);
+	}
+	return map;   
+    }
+}
