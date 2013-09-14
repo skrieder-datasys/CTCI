@@ -7,4 +7,4 @@ test:
 	java Student
 
 clean:
-	rm Student.class
+	rm *.class *~

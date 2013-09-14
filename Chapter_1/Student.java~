@@ -13,7 +13,7 @@ public class Student{
 	id = num;
     }
 
-    public static HashMap<Integer, Student> buildMap(ArrayList<Student> students){
+    public static HashMap<Integer, Student> buildMap(Student[] students){
         HashMap<Integer, Student> x = new HashMap<Integer, Student>();
         for(Student s : students){
 	    x.put(s.id, s);
