@@ -1,6 +1,7 @@
 public class Stack extends Node{
 
     public Stack(Node newTop){
+	//	super(data);
 	Node top;
     }
 

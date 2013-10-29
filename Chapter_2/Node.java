@@ -11,11 +11,13 @@ public class Node{
 
 	System.out.println("Hi");
 
-	Node n = new Node(1);
-	Node end = new Node(2);
+	Node head = new Node(1);
+	Node tail = new Node(2);
 
-	n.next = end;
-	
+	head.next = tail;
+
+	System.out.println(head.data);
+	System.out.println(head.next.data);
 	
     }
 
